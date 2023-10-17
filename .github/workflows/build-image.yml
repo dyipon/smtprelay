@@ -31,4 +31,4 @@ jobs:
                   push: true
                   builder: ${{ steps.buildx.outputs.name }}
                   tags: |
-                      ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.shorthash }}
+                      ghcr.io/dyipon/smtprelay:${{ env.shorthash }}
